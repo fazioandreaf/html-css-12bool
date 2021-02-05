@@ -6,7 +6,6 @@
 .container {
   width: 1170px;
   margin: 0 auto;
-  height: 100px;
 }
 .row::after {
   display: table;
@@ -52,4 +51,7 @@
 }
 .col-12 {
   width: 100%;
+}
+.col-6 .row:last-child {
+  margin:10px;
 }
