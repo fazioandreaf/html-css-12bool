@@ -1,8 +1,14 @@
 [class*="col"] {
-  background-color: pink;
   text-align: center;
   line-height: 100px;
 }
+.pink {
+  background-color: pink;
+}
 .annidato {
   background-color: red;
+}
+.col-6 .row:last-child {
+  margin:10px;
+  border: 1px solid black;
 }
