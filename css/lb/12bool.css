@@ -1,0 +1,17 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  width: 1170px;
+  margin: 0 auto;
+}
+.row::after {
+  display: table;
+  clear: both;
+  content: "";
+}
+[class*="col"] {
+  float: left;
+}
